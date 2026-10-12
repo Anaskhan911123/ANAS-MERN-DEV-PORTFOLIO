@@ -1,0 +1,59 @@
+:root {
+  --surface-1: #F7F7FA;
+  --surface-2: #FFFFFF;
+  --border: #E4E3EE;
+  --text-primary: #1A1A2E;
+  --text-secondary: #7A7891;
+  --radius: 8px;
+
+  --teal: #1D9E75;
+  --teal-light: #5DCAA5;
+  --teal-tint-bg: #E1F5EE;
+  --teal-tint-icon: #9FE1CB;
+  --teal-tint-text: #0F6E56;
+  --teal-tint-text-dark: #085041;
+
+  --indigo: #26215C;
+  --indigo-tint-bg: #EEEDFE;
+  --indigo-tint-icon: #CECBF6;
+  --indigo-tint-text: #534AB7;
+  --indigo-tint-text-dark: #3C3489;
+
+  --pink: #D4537E;
+  --pink-tint-bg: #FBEAF0;
+  --pink-tint-icon: #F4C0D1;
+  --pink-tint-text: #993556;
+  --pink-tint-text-dark: #72243E;
+
+  --red: #E24B4A;
+  --red-tint-bg: #FCEBEB;
+  --red-tint-icon: #F7C1C1;
+  --red-tint-text: #A32D2D;
+  --red-tint-text-dark: #791F1F;
+
+  --orange: #EF9F27;
+  --orange-tint-bg: #FAEEDA;
+  --orange-tint-icon: #FAC775;
+  --orange-tint-text: #633806;
+
+  font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: var(--surface-1);
+  color: var(--text-primary);
+}
+
+input {
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius);
+  padding: 8px 10px;
+  font-size: 14px;
+  background: var(--surface-2);
+}
+
+button {
+  cursor: pointer;
+  font-size: 14px;
+}

@@ -1,0 +1,45 @@
+.reports-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 20px;
+}
+
+.report-card-title {
+  font-size: 20px;
+  margin-top: 4px;
+  margin-bottom: 16px;
+}
+
+.chart-wrapper {
+  margin-top: 12px;
+}
+
+.donut-percentage {
+  font-family: var(--font-serif);
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-top: 16px;
+}
+
+.donut-caption {
+  font-size: 13px;
+  color: var(--color-text-muted);
+  margin-bottom: 20px;
+}
+
+.donut-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.donut-center-label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-primary);
+}

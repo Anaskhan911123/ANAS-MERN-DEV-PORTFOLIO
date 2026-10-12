@@ -1,0 +1,30 @@
+.page-header-block {
+  margin-bottom: 32px;
+}
+
+.breadcrumb {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+
+.page-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 4px;
+}
+
+.page-header-block h1 {
+  font-size: 32px;
+  margin-top: 6px;
+  margin-bottom: 8px;
+}
+
+.page-subtitle {
+  color: var(--color-text-muted);
+  font-size: 15px;
+  max-width: 480px;
+}

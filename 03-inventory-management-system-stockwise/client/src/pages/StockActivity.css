@@ -1,0 +1,23 @@
+.full-activity-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.full-activity-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 18px 4px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.full-activity-item:last-child {
+  border-bottom: none;
+}
+
+.activity-timestamp {
+  font-size: 13px;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+  margin-left: auto;
+}

@@ -1,0 +1,7 @@
+@"
+node_modules/
+.env
+.env.*
+dist/
+build/
+"@ | Set-Content -Encoding ascii .gitignore
