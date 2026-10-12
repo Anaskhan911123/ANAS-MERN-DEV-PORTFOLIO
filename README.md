@@ -1,14 +1,14 @@
-# Auspify Internship Projects
+# ANAS-MERN-DEV-PORTFOLIO
 
-Projects built during my remote internship at Auspify, all on the MERN stack (MongoDB, Express, React, Node.js).
+A collection of full-stack projects I built with the MERN stack (MongoDB, Express, React, Node.js), made during internships and my own practice.
 
-| Project | Auspify Task | Description |
-|---|---|---|
-| [LibraSys](./librasys) | Early task | Library management system |
-| [StockWise](./stockwise) | Early task | TODO: one-line description |
-| [EmpTrack](./emptrack) | Task 4 (Medium) | Employee management system |
-| [ExamPulse](./exampulse) | Task 5 (Advanced) | Online examination system |
-| [Task Management App](./task-management-app) | Task 6 (Advanced) | Task and deadline manager |
+| Project | Description |
+|---|---|
+| [LibraSys](./01-library-management-system-librasys) | Library management system |
+| [StockWise](./02-inventory-management-system-stockwise) | Inventory management system |
+| [EmpTrack](./03-employee-management-system-emptrack) | Employee management system |
+| [TaskForge](./04-project-management-tool-taskforge) | Task and project management tool |
+| [ExamPulse](./05-online-examination-system-ExamPulse) | Online examination system |
 
 ## Tech Stack
 MongoDB · Express · React (Vite) · Node.js
